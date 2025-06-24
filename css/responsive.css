@@ -149,6 +149,9 @@
     #about {
         flex-direction: column-reverse;
     }
+    /* .about-section1{
+        display: block;
+    } */
 
     .about-img {
         width: 100%;
