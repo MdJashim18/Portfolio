@@ -71,9 +71,12 @@
 .mb{
     width: 85%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 .mb-cart{
     text-align: center;
+    flex-wrap: wrap;
 }
 .mb-cart h6{
     font-size: 20px;

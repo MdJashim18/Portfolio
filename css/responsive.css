@@ -173,4 +173,10 @@
     .scholar-cart{
         width: 100%;
     }
+    .mb-cart{
+        text-align: start;
+    }
+    .mb-cart h6{
+        font-size: 14px;
+    }
 }
