@@ -16,6 +16,9 @@
     .cart{
         width: 250px;
     }
+    .project-bnt button{
+        font-size: 12px;
+    }
 }
 
 /* Tablet device */
@@ -67,6 +70,11 @@
     .contact-map {
         height: 300px;
     }
+    /* .project-bnt button{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    } */
 }
 
 /* Mobile device */
@@ -80,7 +88,7 @@
         position: fixed;
         top: 0px;
         width: 150px;
-        height: 100vh;
+        height: 80vh;
         right: -300px;
         padding: 60px 0 0 0px;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
