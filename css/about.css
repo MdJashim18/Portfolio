@@ -234,6 +234,32 @@
     color: #088178;
 }
 
+
+
+
+.stats-section {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.stated{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f0ecec;
+}
+.stat h2 {
+    font-size: 40px;
+    color: #088178;
+}
+
+
+
+
+
+
 .skill-section {
     background-color: rgb(255, 255, 255);
     margin-bottom: 50px;
@@ -262,4 +288,32 @@
 
 .skill button:hover {
     background: #066a64;
+}
+
+
+.download-resume-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #088178;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+.download-resume-btn:hover {
+    background-color: #065e5c;
+}
+.resume-section{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.resume{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.resume a{
+    text-align: center;
 }
