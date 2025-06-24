@@ -1,0 +1,45 @@
+.project-section {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+.project-section h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #088178;
+}
+
+.project-section hr {
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    border: 1.5px solid #088178;
+}
+
+.project {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.project-bnt {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-bnt button {
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    background: #088178;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.project-bnt button:hover {
+    background: #066a64;
+}

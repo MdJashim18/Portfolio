@@ -1,0 +1,192 @@
+.about-section1 {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+.about-section1 div {
+    width: 85%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    transition: all 0.3s ease-in;
+}
+
+.about-section1 div:hover {
+    transform: scale(1.003);
+}
+
+.about-section1 div img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.about-section1 div p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #555;
+}
+
+.edu {
+    font-size: 45px;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bolder;
+    color: #088178;
+}
+
+.hr {
+    border: 2px solid #088178;
+    margin-bottom: 150px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.education-ssection {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+.cart-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cart {
+    width: 300px;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cart-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.cart-img img {
+    width: 100%;
+    transition: all 0.3s ease-in;
+}
+
+.cart-img img:hover {
+    transform: scale(1.1);
+}
+
+.details-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #088178;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cart-img:hover .details-btn {
+    opacity: 1;
+}
+
+
+.cart-content h1 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: green;
+}
+
+.cart-content h5 {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+.cart-content h6 {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+
+.scholar-section {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+.scholar {
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.scholar-cart {
+    width: 250px;
+    /* height: 80px; */
+    border: none;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+
+}
+
+.scholar-cart h6 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #088178;
+}
+
+.scholar-cart p {
+    font-size: 14px;
+    font-weight: 800;
+    color: #088178;
+}
+
+.skill-section {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.skill {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.skill button {
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    background: #088178;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.skill button:hover{
+    background: #066a64;
+}

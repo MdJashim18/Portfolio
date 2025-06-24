@@ -1,0 +1,168 @@
+/* laptop device */
+@media screen and (max-width:1200px) {
+    .bennar-img {}
+
+    .bennar-content h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .work-img{
+        width: 250px;
+        height: 200px;
+    }
+    .about-section1 div p{
+        font-size: 18px;
+    }
+    .cart{
+        width: 250px;
+    }
+}
+
+/* Tablet device */
+@media screen and (max-width:1024px) {
+    #nav-link {
+        gap: 30px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    #nav-link li {
+        font-size: 13px;
+    }
+
+    .about-content h6 {
+        font-size: 20px;
+    }
+
+    .about-content p {
+        font-size: 15px;
+    }
+
+    .about-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-img img {
+        width: 90%;
+    }
+    .scholar-cart{
+        padding: 10px;
+        text-align: center;
+        height: 80px;
+    }
+    .scholar-cart h6{
+        font-size: 12px;
+    }
+    .scholar-cart p{
+        font-size: 10px;
+    }
+    .contacted {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .contact-map {
+        height: 300px;
+    }
+}
+
+/* Mobile device */
+@media screen and (max-width:640px) {
+    #nav-link {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: #E3E6E6;
+        position: fixed;
+        top: 0px;
+        width: 150px;
+        height: 100vh;
+        right: -300px;
+        padding: 60px 0 0 0px;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        /* transition: right 0.3s ease; */
+    }
+
+    #nav-link.active {
+        right: 0px;
+    }
+
+    #mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    #close {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        color: #222;
+        font-size: 24px;
+        display: flex;
+        text-decoration: none;
+    }
+
+    #bennar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .bennar-img {
+        width: 100%;
+    }
+
+    .bennar-img img {
+        width: 180px;
+        margin-right: 50px;
+    }
+
+    .bennar-content {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .bennar-content h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #about {
+        flex-direction: column-reverse;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .work-img{
+        width: 100%;
+    }
+    .cart{
+        width: 100%;
+    }
+    .scholar{
+        flex-direction: column;
+    }
+    .scholar-cart{
+        width: 100%;
+    }
+}
