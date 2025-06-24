@@ -19,6 +19,12 @@ if (close) {
 
 
 
+
+
+
+
+
+
 //Bennar Animation
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {

@@ -47,6 +47,10 @@ p {
   /* background-color: rgba(253, 253, 217, 0.785); */
   background-color: beige;
   box-shadow: rgba(146, 161, 176, 0.15) 0px 1px 16px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .nav {
@@ -54,6 +58,7 @@ p {
   justify-content: space-between;
   width: 85%;
   margin: auto;
+  
 }
 
 .nav-heading {
@@ -99,6 +104,8 @@ p {
   bottom: -4px;
   left: 0px;
 }
+
+
 
 #mobile {
   display: none;

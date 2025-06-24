@@ -1,6 +1,6 @@
 /* laptop device */
 @media screen and (max-width:1200px) {
-    .bennar-img {}
+    
 
     .bennar-content h2 {
         font-size: 30px;
@@ -15,6 +15,12 @@
     }
     .cart{
         width: 250px;
+    }
+    .cart1{
+        width: 250px;
+    }
+    .cart1-img img{
+        height: 200px;
     }
     .project-bnt button{
         font-size: 12px;
@@ -169,6 +175,9 @@
         width: 100%;
     }
     .cart{
+        width: 100%;
+    }
+    .cart1{
         width: 100%;
     }
     .scholar{
